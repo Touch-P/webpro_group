@@ -1,10 +1,7 @@
 # Dependencies (แพ็กเกจของ Node.js)
 node_modules/
 
-# Database (ละเว้นไฟล์ฐานข้อมูลเพื่อไม่ให้ข้อมูลทดสอบในเครื่องไปทับข้อมูลจริงบนเซิร์ฟเวอร์)
-*.db
-database.db
-database.sqbpro
+
 
 # Environment Variables (ละเว้นไฟล์ตั้งค่าที่มีข้อมูลความลับ เช่น รหัสผ่านหรือ API Key)
 .env
