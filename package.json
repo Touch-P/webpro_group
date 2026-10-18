@@ -12,6 +12,12 @@
   },
   "scripts": {
     "start": "node index.js",
+    "postinstall": "npm rebuild sqlite3 --build-from-source",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  
+  
+  "engines": {
+    "node": "20.x"
   }
 }
